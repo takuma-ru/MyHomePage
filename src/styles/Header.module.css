@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  margin-top: -64px;
+  background-color: rgb(245, 248, 248);
+}
+
+.title {
+  text-align: center;
+  line-height: 64px;
+  font-size: xx-large;
+}
+
+.divider {
+  position: absolute;
+  bottom: 0px;
+  width: 98%;
+  height: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: rgb(60, 60, 60);
+}
