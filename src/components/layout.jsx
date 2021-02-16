@@ -1,9 +1,13 @@
+import Head from 'next/head'
 import styles from '../styles/_app.module.css'
 import Header from '../components/header'
 
 function Layout({children}) {
   return(
     <div className={styles.main_container}>
+        <Head>
+          <link rel="shortcut icon" href="" />
+        </Head>
         <Header />
         <div className={styles.main_contents}>
           {children}

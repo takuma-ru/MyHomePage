@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-export default function About() {
+export default function Contact() {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>Contact</title>
       </Head>
-      about
+      contact
     </div>
   )
 }

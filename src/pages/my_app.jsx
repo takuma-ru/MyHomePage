@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-export default function About() {
+export default function My_App() {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>App</title>
       </Head>
-      about
+      app
     </div>
   )
 }
