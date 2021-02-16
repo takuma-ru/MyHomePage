@@ -10,4 +10,4 @@
 - next.js v10.0.6
 
 ### デプロイ
-https://my-home-page-seven.vercel.app/
+https://nekoo-homepage.vercel.app/
