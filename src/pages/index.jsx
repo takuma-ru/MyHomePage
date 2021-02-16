@@ -7,8 +7,13 @@ export default function Home() {
       <Head>
         <title>MyHomePage</title>
       </Head>
-      <div>
-        Home
+      <div className={styles.center_hex}>
+        <div className={styles.center_hex_title}>
+          title
+        </div>
+        <div className={styles.center_hex_text}>
+          center_hex_text sample
+        </div>
       </div>
     </div>
   )

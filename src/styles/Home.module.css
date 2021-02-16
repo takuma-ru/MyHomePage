@@ -1,0 +1,30 @@
+.center_hex {
+  position: absolute;
+  width: 85vmin;
+  height: 85vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../assets/center_hex.svg");
+}
+
+.center_hex_title {
+  position: absolute;
+  width: 48%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: xx-large;
+}
+
+.center_hex_text {
+  position: absolute;
+  width: 78%;
+  height: 48%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  word-wrap: keep-all;
+}

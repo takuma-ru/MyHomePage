@@ -5,6 +5,7 @@
   height: 64px;
   margin-top: -64px;
   background-color: rgb(245, 248, 248);
+  z-index: 99;
   grid-template-rows: 64px;
   grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
@@ -41,7 +42,7 @@
   position: absolute;
   bottom: 0px;
   width: 96%;
-  height: 0.5px;
+  height: 1px;
   left: 50%;
   transform: translate(-50%, 0%);
   background-color: rgb(100, 100, 100);
