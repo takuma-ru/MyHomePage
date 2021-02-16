@@ -5,14 +5,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>MyHomePage</title>
+        <title>NEKOO</title>
       </Head>
       <div className={styles.center_hex}>
         <div className={styles.center_hex_title}>
           title
         </div>
         <div className={styles.center_hex_text}>
-          center_hex_text sample
+          <p>center_hex_text</p>
+          <p>現在制作中</p>
         </div>
       </div>
     </div>
