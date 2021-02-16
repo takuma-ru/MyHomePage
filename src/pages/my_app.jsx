@@ -4,7 +4,7 @@ export default function My_App() {
   return (
     <div>
       <Head>
-        <title>App</title>
+        <title>NEKOO - App</title>
       </Head>
       app
     </div>

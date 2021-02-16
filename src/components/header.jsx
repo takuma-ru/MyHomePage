@@ -17,7 +17,7 @@ export default function Header() {
 
       <div className={header.title}>
         <Link href="/">
-          <a>HEADER</a>
+          <a>NEKOO</a>
         </Link>
       </div>
 

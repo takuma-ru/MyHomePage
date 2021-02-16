@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NEKOO</title>
+        <title>NEKOO - Home</title>
       </Head>
       <div className={styles.center_hex}>
         <div className={styles.center_hex_title}>

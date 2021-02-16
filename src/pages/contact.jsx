@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <Head>
-        <title>Contact</title>
+        <title>NEKOO - Contact</title>
       </Head>
       contact
     </div>

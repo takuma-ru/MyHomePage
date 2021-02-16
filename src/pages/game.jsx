@@ -4,7 +4,7 @@ export default function Game() {
   return (
     <div>
       <Head>
-        <title>Game</title>
+        <title>NEKOO - Game</title>
       </Head>
       game
     </div>
