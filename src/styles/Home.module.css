@@ -43,8 +43,8 @@
 }
 
 .item_hex:hover .item_hex_hover {
-  width: 105%;
-  height: 105%;
+  width: 108%;
+  height: 108%;
   transition: 0.3s ;
 }
 
