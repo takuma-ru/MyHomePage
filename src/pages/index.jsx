@@ -31,8 +31,9 @@ export default function Home() {
         return (
           <Link href={data.url}>
             <div className={styles.item_hex + ' ' + `item_hex_${data.num}`}>
+            <SvgLoader className={styles.item_hex_hover} path="/assets/item_hex_hover.svg"></SvgLoader>
               <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
-                <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
+                <SvgLoader id="outline" className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
                   <div className={styles.item_hex_title}>
                     {data.title}
                   </div>

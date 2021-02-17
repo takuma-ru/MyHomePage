@@ -10,6 +10,6 @@
   </rdf:RDF>
  </metadata>
  <g transform="translate(-33.618 .42403)">
-  <path id="fill" transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="#f5f8f8" opacity=".988" style="paint-order:markers fill stroke"/>
+  <path id="fill" transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="#282828" opacity=".988" style="paint-order:markers fill stroke"/>
  </g>
 </svg>
