@@ -13,8 +13,17 @@
 .title {
   grid-column: 9 / 13;
   line-height: 64px;
+  height: 64px;
   text-align: center;
   font-size: xx-large;
+}
+
+.title img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 44px;
 }
 
 .header_item {
