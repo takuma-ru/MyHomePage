@@ -5,11 +5,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  var data = [
-    { num: "1", title: "About", url:"/about", text: "About_text" },
-    { num: "2", title: "Game", url:"/game", text: "Game_text" },
-    { num: "3", title: "App", url:"/my_app", text: "App_text" },
-    { num: "4", title: "Contact", url:"/contact", text: "Contact_text" },
+  var item_data = [
+    { num: "1", title: "ABOUT", url:"/about", text: "About_text" },
+    { num: "2", title: "GAME", url:"/game", text: "Game_text" },
+    { num: "3", title: "APP", url:"/my_app", text: "App_text" },
+    { num: "4", title: "CONTACT", url:"/contact", text: "Contact_text" },
   ];
 
   return (
@@ -27,20 +27,20 @@ export default function Home() {
         </div>
       </SvgLoader>
 
-      {data.map((data) => {
+      {item_data.map((data) => {
         return (
           <Link href={data.url}>
             <div className={styles.item_hex + ' ' + `item_hex_${data.num}`}>
             <SvgLoader className={styles.item_hex_hover} path="/assets/item_hex_hover.svg"></SvgLoader>
-              <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
-                <SvgLoader id="outline" className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
+              <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
+                <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
                   <div className={styles.item_hex_title}>
                     {data.title}
                   </div>
-                  <div className={styles.item_hex_text}>
+                  {/*<div className={styles.item_hex_text}>
                     <p>{data.text}</p>
                     <p>現在制作中</p>
-                  </div>
+                  </div>*/}
                 </SvgLoader>
               </SvgLoader>
             </div>

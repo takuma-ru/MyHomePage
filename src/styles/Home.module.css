@@ -13,9 +13,9 @@
   width: 48%;
   top: 15%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -15%);
   text-align: center;
-  font-size: xx-large;
+  font-size: 6vmin;
 }
 
 .center_hex_text {
@@ -35,22 +35,23 @@
   width: 30vmin;
   height: 30vmin;
   cursor: pointer;
-  transition: 0.25s ;
+  transition: 0.4s;
 }
 
 .item_hex:hover {
   color: #f5f8f8;
+  transition: 0.25s;
 }
 
 .item_hex:hover .item_hex_hover {
   width: 108%;
   height: 108%;
-  transition: 0.3s ;
+  transition: 0.3s;
 }
 
 .item_hex:hover .item_hex_img{
   opacity: 1;
-  transition: 0.25s ;
+  transition: 0.5s;
 }
 
 .item_hex:hover .item_hex_outline g path{
@@ -65,7 +66,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.3s ;
+  transition: 0.3s;
 }
 
 .item_hex_img {
@@ -87,12 +88,11 @@
 
 .item_hex_title {
   position: absolute;
-  width: 48%;
-  top: 15%;
+  top: 48%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -48%);
   text-align: center;
-  font-size: x-large;
+  font-size: 4vmin;
 }
 
 .item_hex_text {
