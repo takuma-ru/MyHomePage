@@ -5,7 +5,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../assets/center_hex.svg");
+  background-image: url("/assets/center_hex.svg");
 }
 
 .center_hex_title {
@@ -33,9 +33,24 @@
   position: absolute;
   width: 30vmin;
   height: 30vmin;
-  transform: translate(-50%, -10%);
-  background-image: url("../assets/center_hex.svg");
   cursor: pointer;
+}
+
+.item_hex_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/assets/item_hex_fill.svg");
+}
+
+.item_hex_outline {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/item_hex_outline.svg");
 }
 
 .item_hex_title {

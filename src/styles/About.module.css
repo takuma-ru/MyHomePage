@@ -1,0 +1,12 @@
+.item_hex_outline_sample {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 0.25s;
+}
+
+.item_hex_outline_sample:hover g path{
+  stroke: red;
+  transition-duration: 0.25s;
+}

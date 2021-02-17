@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import { SvgLoader, SvgProxy } from 'react-svgmt';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,8 +8,8 @@ export default function Home() {
   var data = [
     { num: "1", title: "About", url:"/about", text: "About_text" },
     { num: "2", title: "Game", url:"/game", text: "Game_text" },
-    { num: "3", title: "App", url:"/my_app", text: "About_text" },
-    { num: "4", title: "Contact", url:"/contact", text: "Game_text" },
+    { num: "3", title: "App", url:"/my_app", text: "App_text" },
+    { num: "4", title: "Contact", url:"/contact", text: "Contact_text" },
   ];
 
   return (
@@ -30,12 +31,16 @@ export default function Home() {
         return (
           <Link href={data.url}>
             <div className={styles.item_hex + ' ' + `item_hex_${data.num}`}>
-              <div className={styles.item_hex_title}>
-                {data.title}
-              </div>
-              <div className={styles.item_hex_text}>
-                <p>{data.text}</p>
-                <p>現在制作中</p>
+              <div className={styles.item_hex_img}>
+                <div className={styles.item_hex_outline}>
+                  <div className={styles.item_hex_title}>
+                    {data.title}
+                  </div>
+                  <div className={styles.item_hex_text}>
+                    <p>{data.text}</p>
+                    <p>現在制作中</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Link>
