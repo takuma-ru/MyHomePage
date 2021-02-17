@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>NEKOO - Home</title>
       </Head>
-      <div className={styles.center_hex}>
+      <SvgLoader className={styles.center_hex} path="/assets/center_hex.svg">
         <div className={styles.center_hex_title}>
           title
         </div>
@@ -25,14 +25,14 @@ export default function Home() {
           <p>center_hex_text</p>
           <p>現在制作中</p>
         </div>
-      </div>
+      </SvgLoader>
 
       {data.map((data) => {
         return (
           <Link href={data.url}>
             <div className={styles.item_hex + ' ' + `item_hex_${data.num}`}>
-              <div className={styles.item_hex_img}>
-                <div className={styles.item_hex_outline}>
+              <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
+                <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
                   <div className={styles.item_hex_title}>
                     {data.title}
                   </div>
@@ -40,8 +40,8 @@ export default function Home() {
                     <p>{data.text}</p>
                     <p>現在制作中</p>
                   </div>
-                </div>
-              </div>
+                </SvgLoader>
+              </SvgLoader>
             </div>
           </Link>
         )

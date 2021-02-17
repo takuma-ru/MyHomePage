@@ -12,9 +12,7 @@ export default function About() {
       </Head>
       <div>
         about
-        <SvgLoader className={style.item_hex_outline_sample} width="100" height="100" path="/assets/item_hex_outline_sample.svg">
-          <SvgProxy selector="#outline" stroke="blue" />
-        </SvgLoader>
+        <SvgLoader className={style.item_hex_outline_sample} width="100" height="100" path="/assets/item_hex_outline.svg"></SvgLoader>
       </div>
     </div>
   )
