@@ -8,10 +8,10 @@ export default function Home() {
   const [hover_num, setHover_num] = useState(0);
 
   var item_data = [
-    {title: "ABOUT", url:"/about", text: "About_text" },
-    {title: "GAME", url:"/game", text: "Game_text" },
-    {title: "APP", url:"/my_app", text: "App_text" },
-    {title: "CONTACT", url:"/contact", text: "Contact_text" },
+    {title: "ABOUT", url:"/about", text: "自己紹介<br>スキル" },
+    {title: "GAME", url:"/game", text: "作ったゲーム" },
+    {title: "APP", url:"/my_app", text: "作ったアプリ" },
+    {title: "CONTACT", url:"/contact", text: "連絡先" },
   ];
 
 
@@ -21,12 +21,12 @@ export default function Home() {
         <title>NEKOO - Home</title>
       </Head>
       <SvgLoader className={styles.center_hex} path="/assets/center_hex.svg">
-        <div className={styles.center_hex_title}>
-          {item_data[hover_num].title}
-        </div>
+        <div
+          className={styles.center_hex_title}
+          dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
+        ></div>
         <div className={styles.center_hex_text}>
-          <p>{item_data[hover_num].text}</p>
-          <p>現在制作中</p>
+          <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
         </div>
       </SvgLoader>
 

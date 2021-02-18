@@ -9,8 +9,8 @@ export default function About() {
       <Head>
         <title>NEKOO - About</title>
       </Head>
-      <div>
-        about
+      <div id="page_title">
+        ABOUT
       </div>
     </div>
   )

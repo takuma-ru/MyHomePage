@@ -6,7 +6,9 @@ export default function My_App() {
       <Head>
         <title>NEKOO - App</title>
       </Head>
-      app
+      <div id="page_title">
+        APP
+      </div>
     </div>
   )
 }

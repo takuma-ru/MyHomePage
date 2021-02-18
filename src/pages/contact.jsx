@@ -6,7 +6,9 @@ export default function Contact() {
       <Head>
         <title>NEKOO - Contact</title>
       </Head>
-      contact
+      <div id="page_title">
+        CONTACT
+      </div>
     </div>
   )
 }

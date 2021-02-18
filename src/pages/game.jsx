@@ -6,7 +6,9 @@ export default function Game() {
       <Head>
         <title>NEKOO - Game</title>
       </Head>
-      game
+      <div id="page_title">
+        GAME
+      </div>
     </div>
   )
 }
