@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const [hover_num, setHover_num] = useState(0);
+  const [hover_center, setHover_center] = useState(0);
 
   var item_data = [
     {title: "ABOUT", url:"/about", text: "自己紹介<br>スキル" },
@@ -20,22 +21,58 @@ export default function Home() {
       <Head>
         <title>NEKOO - Home</title>
       </Head>
-      <SvgLoader className={styles.center_hex} path="/assets/center_hex.svg">
-        <div
-          className={styles.center_hex_title}
-          dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
-        ></div>
-        <div className={styles.center_hex_text}>
-          <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
-        </div>
-      </SvgLoader>
+      <div className={styles.center_hex}>
+        <SvgLoader path="/assets/center_hex.svg">
+        <SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />
+          <div
+            className={styles.center_hex_title}
+            dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
+          ></div>
+          <div className={styles.center_hex_text}>
+            <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
+          </div>
+        </SvgLoader>
+      </div>
 
       {item_data.map((data, i) => {
+
+        var hover_center
+        switch(i){
+          case 0:
+            hover_center = styles.center_hover_0
+            break;
+          case 1:
+            hover_center = styles.center_hover_1
+            break;
+          case 2:
+            hover_center = styles.center_hover_2
+            break;
+          case 3:
+            hover_center = styles.center_hover_3
+            break;
+        }
+
         return (
           <Link key={i} href={data.url}>
             <div
               onMouseEnter={() => {
+                var hover_center
+                switch(i){
+                  case 0:
+                    hover_center = styles.center_hover_0
+                    break;
+                  case 1:
+                    hover_center = styles.center_hover_1
+                    break;
+                  case 2:
+                    hover_center = styles.center_hover_2
+                    break;
+                  case 3:
+                    hover_center = styles.center_hover_3
+                    break;
+                }
                 setHover_num(i)
+                setHover_center(hover_center)
               }}
               onMouseLeave={() => {
                 setHover_num(i)
@@ -50,10 +87,9 @@ export default function Home() {
                     {data.title}
                     <div className={styles.item_hex_divider + ' ' + styles.divider_bottom}></div>
                   </div>
-                  {/*<div className={styles.item_hex_text}>
-                    <p>{data.text}</p>
-                    <p>現在制作中</p>
-                  </div>*/}
+                  <div className={styles.item_hex_text}>
+                    - Click to Read more -
+                  </div>
                 </SvgLoader>
               </SvgLoader>
             </div>
