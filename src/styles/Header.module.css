@@ -1,9 +1,11 @@
 .header {
   display: grid;
   position: fixed;
-  width: 100%;
+  width: calc(100% - 5vw);
   height: 64px;
   margin-top: -64px;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
   background-color: rgb(245, 248, 248);
   z-index: 99;
   grid-template-rows: 64px;

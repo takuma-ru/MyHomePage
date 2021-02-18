@@ -3,6 +3,15 @@ body {
   padding: 0;
   margin: 0;
   font-family: Raleway;
+  background-color: #f5f8f8;
+
+  background-image: url("/assets/background.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100vw 100vh;
+
+  /*preserveAspectRatio="none"*/
 }
 
 a {

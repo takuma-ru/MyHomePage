@@ -46,7 +46,9 @@ export default function Home() {
               <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
                 <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
                   <div className={styles.item_hex_title}>
+                    <div className={styles.item_hex_divider + ' ' + styles.divider_top}></div>
                     {data.title}
+                    <div className={styles.item_hex_divider + ' ' + styles.divider_bottom}></div>
                   </div>
                   {/*<div className={styles.item_hex_text}>
                     <p>{data.text}</p>
@@ -75,13 +77,13 @@ export default function Home() {
       .item_hex_2 {
         top: 10%;
         left: 90%;
-        transform: translate(-80%, -10%);
+        transform: translate(-90%, -10%);
       }
 
       .item_hex_3 {
         top: 90%;
         left: 90%;
-        transform: translate(-80%, -90%);
+        transform: translate(-90%, -90%);
       }
     `}</style>
 

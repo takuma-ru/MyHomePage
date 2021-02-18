@@ -1,12 +1,6 @@
 .main_container {
   min-height: calc(100vh - 64px);
-  background-color: rgb(245, 248, 248);
   margin-top: 0px;
-
-  background-image: url("/assets/background.svg");
-  background-position: center -24px;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .main_contents {

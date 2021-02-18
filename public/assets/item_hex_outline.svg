@@ -9,7 +9,10 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g transform="translate(-33.618 .42403)">
-  <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="#f5f8f8" opacity="1" stroke="#000" stroke-linejoin="bevel" stroke-width="3.4523" style="paint-order:markers fill stroke"/>
+ <g transform="translate(-33.618 .42403)" fill="#f5f8f8" stroke="#000">
+  <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="#f5f8f8" opacity=".988" stroke="#000" stroke-linejoin="bevel" stroke-width="3.4523" style="paint-order:markers fill stroke"/>
+ </g>
+ <g transform="matrix(.93853 0 0 .93853 -15.816 16.134)" stroke="#000" stroke-width=".53275">
+  <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="none" opacity=".988" stroke="#000" stroke-linejoin="bevel" stroke-width=".75" style="paint-order:markers fill stroke"/>
  </g>
 </svg>
