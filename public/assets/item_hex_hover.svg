@@ -11,7 +11,7 @@
  </metadata>
  <g transform="matrix(1 0 0 1.0013 -33.618 -.23378)">
   <g transform="translate(-4.4407 -36.525)" fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="1.9987">
-   <path d="m515.19 420.64-221.13 127.67-221.13-127.67-6.73e-4 -255.34 221.13-127.67 221.13 127.67z" opacity=".988" style="paint-order:markers fill stroke"/>
+   <path d="m515.19 420.64-221.13 127.67-221.13-127.67-6.73e-4 -255.34 221.13-127.67 221.13 127.67z" opacity="1" style="paint-order:markers fill stroke"/>
    <g>
     <path d="m110.64 123.47-55.037 31.84-1.1e-5 63.364"/>
     <path d="m477.48 123.47 55.037 31.84 1e-5 63.364"/>
