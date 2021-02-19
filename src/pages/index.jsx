@@ -15,7 +15,6 @@ export default function Home() {
     {title: "CONTACT", url:"/contact", text: "連絡先" },
   ];
 
-
   return (
     <div>
       <Head>
@@ -35,23 +34,6 @@ export default function Home() {
       </div>
 
       {item_data.map((data, i) => {
-
-        var hover_center
-        switch(i){
-          case 0:
-            hover_center = styles.center_hover_0
-            break;
-          case 1:
-            hover_center = styles.center_hover_1
-            break;
-          case 2:
-            hover_center = styles.center_hover_2
-            break;
-          case 3:
-            hover_center = styles.center_hover_3
-            break;
-        }
-
         return (
           <Link key={i} href={data.url}>
             <div

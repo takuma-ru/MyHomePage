@@ -6,6 +6,6 @@
 .main_contents {
   position: relative;
   margin-top: 64px;
-  padding: 24px 2vw;
+  padding: 24px 4vw;
   min-height: calc(100vh - 64px);
 }
