@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import style from '../styles/About.module.css'
-
+import styles from '../styles/pages_globals.module.css'
+import { SvgLoader, SvgProxy } from 'react-svgmt';
 
 export default function About() {
 
@@ -9,8 +9,14 @@ export default function About() {
       <Head>
         <title>NEKOO - About</title>
       </Head>
-      <div id="page_title">
-        ABOUT
+
+      <div  className={styles.page_title}>
+        <SvgLoader width="" height="45%" className={styles.page_point_1} path="/assets/point.svg" />
+          ABOUT
+        <SvgLoader width="" height="45%" className={styles.page_point_2} path="/assets/point.svg" />
+      </div>
+      <div className={styles.page_contents}>
+        <p>contents.</p>
       </div>
     </div>
   )
