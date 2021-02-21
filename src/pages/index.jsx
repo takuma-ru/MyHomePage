@@ -65,9 +65,7 @@ export default function Home() {
               <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
                 <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
                   <div className={styles.item_hex_title}>
-                    <div className={styles.item_hex_divider + ' ' + styles.divider_top}></div>
                     {data.title}
-                    <div className={styles.item_hex_divider + ' ' + styles.divider_bottom}></div>
                   </div>
                   <div className={styles.item_hex_text}>
                     - Click to Read more -
