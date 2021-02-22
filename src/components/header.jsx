@@ -6,10 +6,10 @@ export default function Header() {
   const router = useRouter()
 
   const item_data = [
-    {title: 'ABOUT', path: '/about', css: header.left_1},
-    {title: 'GAME', path: '/game', css: header.left_2},
-    {title: 'APP', path: '/my_app', css: header.right_1},
-    {title: 'CONTACT', path: '/contact', css: header.right_2}
+    {title: `ABOUT`, path: '/about', css: header.left_1},
+    {title: `GAME`, path: '/game', css: header.left_2},
+    {title: `APP`, path: '/my_app', css: header.right_1},
+    {title: `CONTACT`, path: '/contact', css: header.right_2}
   ]
 
   var wherepath = (path) => {
@@ -29,7 +29,7 @@ export default function Header() {
             <div className={wherepath(data.path)}>
             <Link href={data.path}>
               <a className={header.underline}>
-                {data.title}
+                <span dangerouslySetInnerHTML={{ __html: data.title }}></span>
               </a>
             </Link>
             </div>
@@ -40,12 +40,20 @@ export default function Header() {
       <div className={header.title}>
         <Link href="/">
           <a>
-            <img src="/assets/logo.png"/>
+            <img src="/assets/logo_2.png"/>
           </a>
         </Link>
       </div>
 
       <div className={header.divider}></div>
+
+      <style jsx>{`
+        .color {
+          color: #f5f8f8;
+          font-size: larger;
+        }
+      `}</style>
+
     </div>
   )
 }

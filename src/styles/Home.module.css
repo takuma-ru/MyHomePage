@@ -169,7 +169,7 @@
   height: 1px;
   background: #00b4dc;
   z-index: -1;
-  transition: all 0.4s;
+  transition: ease-out 0.4s;
 }
 
 .item_hex_title::before {
