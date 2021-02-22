@@ -25,12 +25,14 @@ export default function Header() {
 
       {item_data.map((data, i) => {
         return (
-          <div className={wherepath(data.path) + ' ' + header.header_item + ' ' + data.css}>
+          <div key={i} className={header.header_item + ' ' + data.css}>
+            <div className={wherepath(data.path)}>
             <Link href={data.path}>
               <a className={header.underline}>
                 {data.title}
               </a>
             </Link>
+            </div>
           </div>
         )
       })}

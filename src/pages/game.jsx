@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import styles from '../styles/pages_globals.module.css'
+import { SvgLoader, SvgProxy } from 'react-svgmt';
 
 export default function Game() {
   return (
@@ -6,8 +8,14 @@ export default function Game() {
       <Head>
         <title>NEKOO - Game</title>
       </Head>
-      <div id="page_title">
-        GAME
+
+      <div  className={styles.page_title}>
+        <SvgLoader width="" height="45%" className={styles.page_point_1} path="/assets/point.svg" />
+          GAME
+        <SvgLoader width="" height="45%" className={styles.page_point_2} path="/assets/point.svg" />
+      </div>
+      <div className={styles.page_contents}>
+        <p>contents.</p>
       </div>
     </div>
   )
