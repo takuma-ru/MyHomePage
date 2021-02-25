@@ -9,7 +9,7 @@
 
 .page_contents {
   display: grid;
-  grid-auto-rows: 45vh;
+  grid-auto-rows: calc(100vh - 151px);
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
   min-height: 100%;
@@ -27,7 +27,7 @@
 
 .page_contents_title_l {
   position: relative;
-  grid-column: 1 / 5;
+  grid-column: 1 / 7;
 }
 
 .page_contents_title_r {
@@ -40,14 +40,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4vmin;
-  font-weight: 300;
+  font-size: 6vmin;
+  font-weight: 400;
 }
 
 .page_contents_text_l {
   position: relative;
-  grid-column: 6 / 14;
+  grid-column: 8 / 14;
   text-align: center;
+}
+
+.page_contents_title_r_scroll {
+  transform: translate(0, 0)
 }
 
 .page_contents_text_r {
