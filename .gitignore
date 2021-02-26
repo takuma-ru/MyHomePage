@@ -36,3 +36,4 @@ yarn-error.log*
 # other
 /public/assets/img_dev
 /src/pages/dev.jsx
+/src/pages/dev2.jsx

@@ -90,6 +90,10 @@
   height: 30vmin;
   cursor: pointer;
   transition: 0.25s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .item_hex:hover {

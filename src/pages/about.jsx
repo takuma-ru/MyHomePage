@@ -67,10 +67,10 @@ export default function About() {
 
       <style jsx>{`
         .page_contents_title_l_scroll_1 {
-          transform: translate(${scrollPosition < 1 ? (scrollPosition - 1) * 1000 : 0}px, 0)
+          transform: translate(${scrollPosition < 1 ? (scrollPosition - 1) * 3000 : 0}px, 0)
         }
         .page_contents_title_r_scroll_1 {
-          transform: translate(${scrollPosition < 0.8 ? (0.8 - scrollPosition) * 1000 : 0}px, 0)
+          transform: translate(${scrollPosition < 0.8 ? (0.8 - scrollPosition) * 3000 : 0}px, 0)
         }
       `}</style>
 
