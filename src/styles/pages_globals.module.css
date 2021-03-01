@@ -9,12 +9,12 @@
 
 .page_contents {
   display: grid;
-  grid-auto-rows: calc(100vh - 151px);
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: calc(100vh - 151px - 5.5vmin);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
   min-height: 100%;
   text-align: center;
-  margin-top: 3vh;
+  margin-top: 24px;
 }
 
 .title_hex {
@@ -22,17 +22,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-
-.page_contents_title_l {
-  position: relative;
-  grid-column: 1 / 7;
-}
-
-.page_contents_title_r {
-  position: relative;
-  grid-column: 8 / 14;
 }
 
 .page_contents_title_l span, .page_contents_title_r span {
@@ -44,20 +33,14 @@
   font-weight: 400;
 }
 
-.page_contents_text_l {
+.page_contents_title_l {
   position: relative;
-  grid-column: 8 / 14;
-  text-align: center;
+  grid-column: 1 / 6;
 }
 
-.page_contents_title_r_scroll {
-  transform: translate(0, 0)
-}
-
-.page_contents_text_r {
+.page_contents_title_r {
   position: relative;
-  grid-column: 1 / 7;
-  text-align: center;
+  grid-column: 6 / 13;
 }
 
 .page_contents_text_l span, .page_contents_text_r span {
@@ -66,6 +49,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.page_contents_text_l {
+  position: relative;
+  grid-column: 6 / 13;
+  text-align: center;
+}
+
+.page_contents_text_r {
+  position: relative;
+  grid-column: 1 / 6;
+  text-align: center;
+}
+
 
 .page_point_1 {
   position: absolute;
@@ -79,4 +75,38 @@
   top: 50%;
   right: -80%;
   transform: translate(0%, -50%);
+}
+
+.who {
+  animation-name: who_anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes who_anim {
+  0% {
+    stroke-dasharray: 3000px;
+    stroke-dashoffset: 3000px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+/*in jsx*/
+
+.page_contents_title_r_scroll {
+  transform: translate(0, 0);
+  animation-name: r_scroll;
+  animation-duration: 1s;
+}
+
+@keyframes r_scroll {
+  0% {
+    transform: translate(150vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }

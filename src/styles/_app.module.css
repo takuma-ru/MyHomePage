@@ -9,3 +9,20 @@
   padding: 24px 4vw;
   min-height: calc(100vh - 64px);
 }
+
+.parts_1 {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  width: 3vmin;
+  height: 15vmin;
+}
+
+.parts_2 {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 3vmin;
+  height: 15vmin;
+  transform: rotate(180deg);
+}

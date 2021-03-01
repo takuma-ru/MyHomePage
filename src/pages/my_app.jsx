@@ -6,7 +6,7 @@ export default function My_App() {
   return (
     <div>
       <Head>
-        <title>NEKOO - App</title>
+        <title>NEKOO｜App</title>
       </Head>
 
       <div  className={styles.page_title}>

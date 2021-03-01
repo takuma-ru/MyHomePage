@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NEKOO - Home</title>
+        <title>NEKOO｜Home</title>
       </Head>
       <div className={styles.center_hex}>
         <SvgLoader path="/assets/center_hex.svg">

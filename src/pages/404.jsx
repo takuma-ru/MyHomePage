@@ -4,7 +4,7 @@ export default function Custom404() {
   return (
     <div>
       <Head>
-      <title>NEKOO - 404</title>
+      <title>NEKOO｜404</title>
       </Head>
       <div className="notfound">
         <p id="title">404</p>

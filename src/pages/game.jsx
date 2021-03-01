@@ -6,7 +6,7 @@ export default function Game() {
   return (
     <div>
       <Head>
-        <title>NEKOO - Game</title>
+        <title>NEKOO｜Game</title>
       </Head>
 
       <div  className={styles.page_title}>
