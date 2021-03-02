@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
 import styles from '../styles/pages_globals.module.css'
-import { SvgLoader, SvgProxy } from 'react-svgmt';
+import { SvgLoader, SvgProxy, TransformMotion, AttributeMotion } from 'react-svgmt';
 
 export default function About() {
 
@@ -19,7 +19,8 @@ export default function About() {
         </div>
         <div id="page" className={styles.page_contents}>
           <div className={styles.page_contents_title_l}>
-            <SvgLoader className={styles.title_hex + ' ' + styles.who} width="" height="65%" path="/assets/item_hex_outline_page.svg">
+            <SvgLoader className={styles.title_hex} height="65%" path="/assets/item_hex_outline_page.svg">
+            <SvgLoader className={styles.title_hex + ' ' + styles.who} height="85%" path="/assets/item_hex_page_sample.svg" />
               <span>who？</span>
             </SvgLoader>
           </div>
