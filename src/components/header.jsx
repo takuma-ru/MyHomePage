@@ -40,12 +40,12 @@ export default function Header() {
       <div className={header.title}>
         <Link href="/">
           <a>
-            <img src="/assets/logo_2.png"/>
+            <img src="/assets/logo.png"/>
           </a>
         </Link>
       </div>
 
-      <div className={header.divider}></div>
+      
 
       <style jsx>{`
         .color {

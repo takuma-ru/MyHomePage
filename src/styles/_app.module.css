@@ -6,7 +6,7 @@
 .main_contents {
   position: relative;
   margin-top: 64px;
-  padding: 24px 4vw;
+  padding: 24px 4.5vmin;
   min-height: calc(100vh - 64px);
 }
 
@@ -14,15 +14,15 @@
   position: fixed;
   bottom: 0%;
   left: 0%;
-  width: 3vmin;
-  height: 15vmin;
+  width: 4vmin;
+  height: 16vmin;
 }
 
 .parts_2 {
   position: fixed;
   top: 0%;
   right: 0%;
-  width: 3vmin;
-  height: 15vmin;
+  width: 4vmin;
+  height: 16vmin;
   transform: rotate(180deg);
 }

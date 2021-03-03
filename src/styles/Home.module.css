@@ -8,6 +8,15 @@
   transform: translate(-50%, -50%);
 }
 
+.center_hex_outline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 105%;
+  stroke-dashoffset: 100px;
+}
+
 .center_hover {
   position: absolute;
   top: -91%;
@@ -133,8 +142,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.5;
-  transition: 0.4s;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .item_hex_img {

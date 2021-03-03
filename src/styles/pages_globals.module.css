@@ -77,19 +77,21 @@
   transform: translate(0%, -50%);
 }
 
-.who g  {
+/*botsu*/
+
+.who {
   animation-name: who_anim;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes who_anim {
   0% {
-    opacity: 1;
+    opacity: 0;
     stroke-dasharray: 600px;
     stroke-dashoffset: 600px
   }
-  50% {
+  25% {
     opacity: 1;
   }
   100% {

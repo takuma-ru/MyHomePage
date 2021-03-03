@@ -7,34 +7,45 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   viewBox="0 0 512 512"
-   id="svg12"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="item_hex_outline_page.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+   id="svg12"
+   viewBox="0 0 512 512"
+   version="1.1">
   <defs
      id="defs16" />
   <sodipodi:namedview
-     inkscape:document-rotation="0"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     id="namedview14"
-     showgrid="false"
-     inkscape:zoom="1.2540097"
-     inkscape:cx="420.96122"
-     inkscape:cy="382.65368"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:current-layer="svg12"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g6" />
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="449.59522"
+     inkscape:cx="-82.540999"
+     inkscape:zoom="0.31350243"
+     showgrid="false"
+     id="namedview14"
+     inkscape:window-height="1057"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -48,35 +59,35 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-33.618 .42403)"
+     id="g6"
+     stroke="#000"
      fill="#f5f8f8"
-     stroke="#000"
-     id="g6">
-    <path
-       d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z"
-       fill="#f5f8f8"
-       opacity=".988"
-       stroke="#000"
-       stroke-linejoin="bevel"
-       stroke-width="3.4523"
-       style="paint-order:markers fill stroke;stroke:#000000;stroke-opacity:1"
-       id="path4"
-       transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" />
-  </g>
-  <g
-     transform="matrix(.93853 0 0 .93853 -15.816 16.134)"
-     stroke="#000"
-     stroke-width=".53275"
-     id="g10">
+     transform="translate(-33.618 .42403)">
     <path
        transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)"
-       d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z"
-       fill="none"
-       opacity=".988"
-       stroke="#000"
+       id="path4"
+       style="paint-order:markers fill stroke;stroke:#000000;stroke-opacity:1"
+       stroke-width="3.4523"
        stroke-linejoin="bevel"
-       stroke-width=".75"
+       stroke="#000"
+       opacity=".988"
+       fill="#f5f8f8"
+       d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" />
+  </g>
+  <g
+     id="g10"
+     stroke-width=".53275"
+     stroke="#000"
+     transform="matrix(.93853 0 0 .93853 -15.816 16.134)">
+    <path
+       id="path8"
        style="paint-order:markers fill stroke"
-       id="path8" />
+       stroke-width=".75"
+       stroke-linejoin="bevel"
+       stroke="#000"
+       opacity=".988"
+       fill="none"
+       d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z"
+       transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" />
   </g>
 </svg>

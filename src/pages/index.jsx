@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
       <div className={styles.center_hex}>
         <SvgLoader path="/assets/center_hex.svg">
+        <SvgLoader className={styles.center_hex_outline} path="/assets/center_hex_outline.svg" />
         <SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />
           <div
             className={styles.center_hex_title}
