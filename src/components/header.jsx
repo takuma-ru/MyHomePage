@@ -23,6 +23,14 @@ export default function Header() {
   return (
     <div className={header.header}>
 
+      <div className={header.title}>
+        <Link href="/">
+          <a>
+            <img src="/assets/logo.png"/>
+          </a>
+        </Link>
+      </div>
+
       {item_data.map((data, i) => {
         return (
           <div key={i} className={header.header_item + ' ' + data.css}>
@@ -36,16 +44,6 @@ export default function Header() {
           </div>
         )
       })}
-
-      <div className={header.title}>
-        <Link href="/">
-          <a>
-            <img src="/assets/logo.png"/>
-          </a>
-        </Link>
-      </div>
-
-      
 
       <style jsx>{`
         .color {
