@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <div className={styles.center_hex}>
         <SvgLoader path="/assets/center_hex.svg">
-        <SvgLoader className={styles.center_hex_outline} path="/assets/center_hex_outline.svg" />
+        <SvgLoader className={styles.center_hex_outline + ' ' + hover_center} path="/assets/center_hex_outline.svg" />
         {/*<SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />*/}
           <div
             className={styles.center_hex_title}
@@ -48,16 +48,16 @@ export default function Home() {
                 var hover_center
                 switch(i){
                   case 0:
-                    //hover_center = styles.center_hover_0
+                    hover_center = styles.center_hex_outline_0
                     break;
                   case 1:
-                    //hover_center = styles.center_hover_1
+                    hover_center = styles.center_hex_outline_1
                     break;
                   case 2:
-                    //hover_center = styles.center_hover_2
+                    hover_center = styles.center_hex_outline_2
                     break;
                   case 3:
-                    //hover_center = styles.center_hover_3
+                    hover_center = styles.center_hex_outline_3
                     break;
                 }
                 setHover_num(i)
