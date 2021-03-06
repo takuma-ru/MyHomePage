@@ -26,3 +26,11 @@
   height: 16vmin;
   transform: rotate(180deg);
 }
+
+.copyright {
+  position: fixed;
+  right: -4vmin;
+  bottom: 65px;
+  transform: rotate(-90deg);
+  font-size: small;
+}

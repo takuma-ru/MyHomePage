@@ -10,14 +10,15 @@
 
 .center_hex_outline {
   position: absolute;
+  width: 110%;
+  height: 110%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 105%;
   stroke-dashoffset: 100px;
 }
 
-.center_hover {
+/*.center_hover {
   position: absolute;
   top: -91%;
   bottom: 0;
@@ -68,7 +69,7 @@
   margin: auto;
   transform: rotate(3.15rad);
   transition: 0.25s;
-}
+}*/
 
 .center_hex_title {
   position: absolute;
@@ -90,6 +91,13 @@
   transform: translate(-50%, -50%);
   text-align: center;
   word-wrap: keep-all;
+}
+
+.text_end {
+  position: absolute;
+  right: 0;
+  height: 8%;
+  width: 8%;
 }
 
 /*item*/

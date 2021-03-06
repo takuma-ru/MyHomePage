@@ -25,13 +25,14 @@ export default function Home() {
       <div className={styles.center_hex}>
         <SvgLoader path="/assets/center_hex.svg">
         <SvgLoader className={styles.center_hex_outline} path="/assets/center_hex_outline.svg" />
-        <SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />
+        {/*<SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />*/}
           <div
             className={styles.center_hex_title}
             dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
           ></div>
           <div className={styles.center_hex_text}>
             <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
+            <SvgLoader className={styles.text_end} path="/assets/text_end.svg" />
           </div>
         </SvgLoader>
       </div>
@@ -47,16 +48,16 @@ export default function Home() {
                 var hover_center
                 switch(i){
                   case 0:
-                    hover_center = styles.center_hover_0
+                    //hover_center = styles.center_hover_0
                     break;
                   case 1:
-                    hover_center = styles.center_hover_1
+                    //hover_center = styles.center_hover_1
                     break;
                   case 2:
-                    hover_center = styles.center_hover_2
+                    //hover_center = styles.center_hover_2
                     break;
                   case 3:
-                    hover_center = styles.center_hover_3
+                    //hover_center = styles.center_hover_3
                     break;
                 }
                 setHover_num(i)

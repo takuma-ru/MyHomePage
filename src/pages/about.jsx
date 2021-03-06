@@ -19,11 +19,11 @@ export default function About() {
         </div>
         <div id="page" className={styles.page_contents}>
           <div className={styles.page_contents_title_l}>
-            <SvgLoader className={styles.title_hex} width="" height="65%" path="/assets/item_hex_outline_page.svg">
+            {/*<SvgLoader className={styles.title_hex} width="" height="65%" path="/assets/item_hex_outline_page.svg">*/}
             {/*<SvgLoader className={styles.title_hex + ' ' + styles.who} width="" height="85%" path="/assets/item_hex_outline_page_deco.svg" />*/}
             {/*<SvgLoader className={styles.title_hex + ' ' + styles.who} width="100vw" height="85%" path="/assets/item_hex_outline_page_deco2.svg" />*/}
               <span>who？</span>
-            </SvgLoader>
+            {/*</SvgLoader>*/}
           </div>
           <div className={styles.page_contents_text_l}>
             <span>本文</span>
