@@ -1,7 +1,7 @@
 # My Home Page
 
 ## Description
-ホームページ
+takuma-ruのホームページ的なヤツ
 
 ## Requirement
 
@@ -13,4 +13,5 @@
 | react-svgmt | 1.1.11 |
 
 ## Deploy
+vercel<br>
 https://nekoo-homepage.vercel.app/
