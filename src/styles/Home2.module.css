@@ -1,0 +1,81 @@
+.RySSIiJT_0 {
+  stroke-dasharray: 256 258;
+  stroke-dashoffset: 257;
+  animation: RySSIiJT_draw 666ms linear 0ms forwards;
+}
+.RySSIiJT_1 {
+  stroke-dasharray: 256 258;
+  stroke-dashoffset: 257;
+  animation: RySSIiJT_draw 666ms linear 27ms forwards;
+}
+.RySSIiJT_2 {
+  stroke-dasharray: 64 66;
+  stroke-dashoffset: 65;
+  animation: RySSIiJT_draw 666ms linear 55ms forwards;
+}
+.RySSIiJT_3 {
+  stroke-dasharray: 54 56;
+  stroke-dashoffset: 55;
+  animation: RySSIiJT_draw 666ms linear 83ms forwards;
+}
+.RySSIiJT_4 {
+  stroke-dasharray: 28 30;
+  stroke-dashoffset: 29;
+  animation: RySSIiJT_draw 666ms linear 111ms forwards;
+}
+.RySSIiJT_5 {
+  stroke-dasharray: 1533 1535;
+  stroke-dashoffset: 1534;
+  animation: RySSIiJT_draw 666ms linear 138ms forwards;
+}
+.RySSIiJT_6 {
+  stroke-dasharray: 119 121;
+  stroke-dashoffset: 120;
+  animation: RySSIiJT_draw 666ms linear 166ms forwards;
+}
+.RySSIiJT_7 {
+  stroke-dasharray: 119 121;
+  stroke-dashoffset: 120;
+  animation: RySSIiJT_draw 666ms linear 194ms forwards;
+}
+.RySSIiJT_8 {
+  stroke-dasharray: 28 30;
+  stroke-dashoffset: 29;
+  animation: RySSIiJT_draw 666ms linear 222ms forwards;
+}
+.RySSIiJT_9 {
+  stroke-dasharray: 36 38;
+  stroke-dashoffset: 37;
+  animation: RySSIiJT_draw 666ms linear 249ms forwards;
+}
+.RySSIiJT_10 {
+  stroke-dasharray: 36 38;
+  stroke-dashoffset: 37;
+  animation: RySSIiJT_draw 666ms linear 277ms forwards;
+}
+.RySSIiJT_11 {
+  stroke-dasharray: 36 38;
+  stroke-dashoffset: 37;
+  animation: RySSIiJT_draw 666ms linear 305ms forwards;
+}
+.RySSIiJT_12 {
+  stroke-dasharray: 54 56;
+  stroke-dashoffset: 55;
+  animation: RySSIiJT_draw 666ms linear 333ms forwards;
+}
+@keyframes RySSIiJT_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes RySSIiJT_fade {
+  0% {
+    stroke-opacity: 1;
+  }
+  92.3076923076923% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}

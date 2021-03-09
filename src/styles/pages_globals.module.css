@@ -62,6 +62,12 @@
   text-align: center;
 }
 
+.title_underbar {
+  position: absolute;
+  left: 40%;
+  transform: translateX(-50%);
+  bottom: -45%;
+}
 
 .page_point_1 {
   position: absolute;
