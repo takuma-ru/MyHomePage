@@ -6,7 +6,7 @@
 .main_contents {
   position: relative;
   margin-top: 64px;
-  padding: 24px 4.5vmin;
+  padding: 24px 6.5vmin;
   min-height: calc(100vh - 64px);
 }
 

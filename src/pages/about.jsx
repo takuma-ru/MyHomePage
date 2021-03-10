@@ -13,18 +13,12 @@ export default function About() {
 
       <div>
         <div className={styles.page_title}>
-          <SvgLoader height="65%" className={styles.title_underbar} path="/assets/title_underbar.svg">
-            <SvgProxy selector="g" stroke-width="1px"></SvgProxy>
-          </SvgLoader>
-            ABOUT
+          <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
+          <p>ABOUT</p>
         </div>
         <div id="page" className={styles.page_contents}>
           <div className={styles.page_contents_title_l}>
-            {/*<SvgLoader className={styles.title_hex} width="" height="65%" path="/assets/item_hex_outline_page.svg">*/}
-            {/*<SvgLoader className={styles.title_hex + ' ' + styles.who} width="" height="85%" path="/assets/item_hex_outline_page_deco.svg" />*/}
-            {/*<SvgLoader className={styles.title_hex + ' ' + styles.who} width="100vw" height="85%" path="/assets/item_hex_outline_page_deco2.svg" />*/}
               <span>who？</span>
-            {/*</SvgLoader>*/}
           </div>
           <div className={styles.page_contents_text_l}>
             <span>本文</span>
@@ -34,15 +28,11 @@ export default function About() {
             <span>本文</span>
           </div>
           <div className={styles.page_contents_title_r}>
-            <SvgLoader className={styles.title_hex} width="" height="65%" path="/assets/item_hex_outline_page.svg">
               <span>何できるの？</span>
-            </SvgLoader>
           </div>
 
           <div className={styles.page_contents_title_l}>
-            <SvgLoader className={styles.title_hex} width="" height="65%" path="/assets/item_hex_outline_page.svg">
               <span>誰？</span>
-            </SvgLoader>
           </div>
           <div className={styles.page_contents_text_l}>
             <span>本文</span>

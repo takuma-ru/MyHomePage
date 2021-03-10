@@ -1,10 +1,21 @@
 .page_title {
   position: relative;
-  margin: auto;
-  width: fit-content;
-  text-align: center;
-  font-size: 5.5vmin;
+  display: flex;
+  height: 7vmin;
+  width: 100%;
+}
+
+.page_title p {
+  position: relative;
+  margin: 0 0;
+  font-size: 6.5vmin;
   font-weight: 500;
+}
+
+.title_parts {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .page_contents {
@@ -60,27 +71,6 @@
   position: relative;
   grid-column: 1 / 6;
   text-align: center;
-}
-
-.title_underbar {
-  position: absolute;
-  left: 40%;
-  transform: translateX(-50%);
-  bottom: -45%;
-}
-
-.page_point_1 {
-  position: absolute;
-  top: 50%;
-  left: -80%;
-  transform: translate(0%, -50%);
-}
-
-.page_point_2 {
-  position: absolute;
-  top: 50%;
-  right: -80%;
-  transform: translate(0%, -50%);
 }
 
 /*botsu*/

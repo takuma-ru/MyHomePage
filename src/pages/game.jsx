@@ -10,10 +10,8 @@ export default function Game() {
       </Head>
 
       <div  className={styles.page_title}>
-        <SvgLoader height="65%" className={styles.title_underbar} path="/assets/title_underbar.svg">
-          <SvgProxy selector="g" stroke-width="1px"></SvgProxy>
-        </SvgLoader>
-          GAME
+        <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
+        <p>GAME</p>
       </div>
       <div className={styles.page_contents}>
         <p>contents.</p>

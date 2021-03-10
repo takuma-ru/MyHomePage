@@ -1,11 +1,12 @@
 .header {
   display: grid;
   position: fixed;
-  width: calc(100% - 9vmin);
+  width: calc(100% - 13vmin);
   height: 64px;
   margin-top: -64px;
-  margin-left: 4.5vmin;
-  margin-right: 4.5vmin;
+  margin-left: 6.5vmin;
+  margin-right: 6.5vmin;
+  backdrop-filter: blur(2.5px);
   z-index: 99;
   grid-template-rows: 64px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -21,7 +22,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 32px;
+  height: 42px;
 }
 
 #a {
@@ -39,7 +40,7 @@
   content: '';
   width: 100%;
   height: 1px;
-  background-color: #011729;
+  background-color: #787878ff;
   transform: scale(0, 1);
   transition: transform .3s;
 }
@@ -81,7 +82,7 @@
   top: 50%;
   width: 3px;
   height: 130%;
-  background-color: #011729;
+  background-color: #787878ff;
   transform: translate(-50%, -50%);
   animation-name: item_select;
   animation-duration: 0.2s;
@@ -131,7 +132,7 @@
   }
 
   .title img {
-    height: 22px;
+    height: 26px;
   }
 
   .header_item {
