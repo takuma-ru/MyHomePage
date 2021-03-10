@@ -2,7 +2,6 @@
 
 ## Description
 takuma-ruのホームページ的なヤツ
-CSS
 
 ## Requirement
 
