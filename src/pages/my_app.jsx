@@ -11,7 +11,9 @@ export default function My_App() {
 
       <div  className={styles.page_title}>
         <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
-        <p>APP</p>
+          <p>
+            <span className={styles.title_1}>A</span>PP
+          </p>
       </div>
       <div className={styles.page_contents}>
         <p>contents.</p>

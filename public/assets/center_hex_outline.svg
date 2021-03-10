@@ -1,163 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="center_hex_outline.svg"
-   id="svg37"
-   viewBox="0 0 540 540"
-   version="1.1"
-   height="540"
-   width="540">
-  <defs
-     id="defs41" />
-  <sodipodi:namedview
-     inkscape:current-layer="svg37"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:cy="117.18692"
-     inkscape:cx="-14.537647"
-     inkscape:zoom="1.4142136"
-     inkscape:snap-page="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true"
-     inkscape:snap-bbox="true"
-     showgrid="false"
-     id="namedview39"
-     inkscape:window-height="1057"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
-  <metadata
-     id="metadata2">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(-0.01104854,-0.04419417)"
-     id="g15"
-     stroke-width="0.8"
-     stroke="#787878">
-    <path
-       id="path9"
-       fill="none"
-       d="M 82.171,123.35 58.53,109.61 58.53049,72.97" />
-    <path
-       id="path11"
-       d="M 48.872,104.33 48.871,50.658" />
-    <path
-       id="path13"
-       fill="none"
-       d="m 269.51,14.659 11.949,6.8534 11.963,-6.9067" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540" height="540" version="1.1" viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-.011049 -.044194)" stroke="#787878" stroke-width=".8">
+  <path d="m82.171 123.35-23.641-13.74 4.9e-4 -36.64" fill="none"/>
+  <path d="m48.872 104.33-1e-3 -53.672"/>
+  <path d="m269.51 14.659 11.949 6.8534 11.963-6.9067" fill="none"/>
+ </g>
+ <path d="m446.19-760.83 221.13 127.67-2e-3 255.34-221.13 127.67-221.13-127.67 2e-3 -255.34z" fill="none" opacity=".988" stroke="#787878" stroke-linejoin="bevel" stroke-width="1.5001" style="paint-order:markers fill stroke"/>
+ <rect width="29.505" height="29.505" fill="#f8f5f5" fill-rule="evenodd" stop-color="#000000" style="font-variation-settings:normal;paint-order:markers stroke fill"/>
+ <rect x="510.49" y="510.49" width="29.505" height="29.505" fill="#f8f5f5" fill-rule="evenodd" stop-color="#000000" style="font-variation-settings:normal;paint-order:markers stroke fill"/>
+ <g transform="translate(-.042969 .011719)" fill="none" stroke="#00c0c0" stroke-width=".8">
+  <path d="m60.622 417.91-0.03949-13.775-11.963-6.9066" stroke="#787878"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <rect x="52.981" y="144.73" width="12.787" height="4.8325" stop-color="#000000" style="font-variation-settings:normal;paint-order:markers stroke fill"/>
+   <rect x="52.981" y="154.56" width="12.787" height="4.8325" stop-color="#000000" style="font-variation-settings:normal;paint-order:markers stroke fill"/>
+   <rect x="52.981" y="164.4" width="12.787" height="4.8325" stop-color="#000000" style="font-variation-settings:normal;paint-order:markers stroke fill"/>
   </g>
-  <path
-     id="path17"
-     style="paint-order:markers fill stroke"
-     stroke-width="1.5001"
-     stroke-linejoin="bevel"
-     stroke="#787878"
-     opacity=".988"
-     fill="none"
-     d="m446.19-760.83 221.13 127.67-2e-3 255.34-221.13 127.67-221.13-127.67 2e-3 -255.34z" />
-  <rect
-     id="rect19"
-     style="font-variation-settings:normal;paint-order:markers stroke fill"
-     stop-color="#000000"
-     fill-rule="evenodd"
-     fill="#f8f5f5"
-     height="29.505"
-     width="29.505" />
-  <rect
-     id="rect21"
-     style="font-variation-settings:normal;paint-order:markers stroke fill"
-     stop-color="#000000"
-     fill-rule="evenodd"
-     fill="#f8f5f5"
-     height="29.505"
-     width="29.505"
-     y="510.49"
-     x="510.49" />
-  <g
-     transform="translate(-0.04296875,0.01171875)"
-     id="g33"
-     stroke-width="0.8"
-     stroke="#787878"
-     fill="none">
-    <path
-       id="path23"
-       d="m 60.622,417.91 -0.03949,-13.775 -11.963,-6.9066" />
-    <g
-       id="g31"
-       stroke-linejoin="round"
-       stroke-linecap="round">
-      <rect
-         id="rect25"
-         style="font-variation-settings:normal;paint-order:markers stroke fill"
-         stop-color="#000000"
-         height="4.8325"
-         width="12.787"
-         y="144.73"
-         x="52.980999" />
-      <rect
-         id="rect27"
-         style="font-variation-settings:normal;paint-order:markers stroke fill"
-         stop-color="#000000"
-         height="4.8325"
-         width="12.787"
-         y="154.56"
-         x="52.980999" />
-      <rect
-         id="rect29"
-         style="font-variation-settings:normal;paint-order:markers stroke fill"
-         stop-color="#000000"
-         height="4.8325"
-         width="12.787"
-         y="164.39999"
-         x="52.980999" />
-    </g>
-  </g>
-  <path
-     id="path35"
-     stroke-width=".8"
-     stroke="#787878"
-     d="m58.53 60.973-1e-3 -53.672" />
-  <path
-     id="path43"
-     d="M 48.872,142.32 V 269.955"
-     style="fill:none;stroke:#787878;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     style="fill:none;stroke:#787878;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 159.40715,78.502503 48.872,142.32"
-     id="path43-1" />
-  <path
-     id="path43-1-3"
-     d="m 48.872002,269.955 -5e-6,127.63499"
-     style="fill:none;stroke:#787878;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     id="path43-1-2"
-     d="M 269.9423,14.685006 159.40715,78.502503"
-     style="fill:none;stroke:#787878;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+ </g>
+ <path d="m58.53 60.973-1e-3 -53.672" stroke="#787878" stroke-width=".8"/>
+ <g fill="none" stroke="#787878" stroke-width="1px">
+  <path d="m48.872 142.32v127.64"/>
+  <path d="m159.41 78.503-110.54 63.817"/>
+  <path d="m48.872 269.96-5e-6 127.63"/>
+  <path d="m269.94 14.685-110.54 63.817"/>
+ </g>
 </svg>

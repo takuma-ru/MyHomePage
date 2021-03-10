@@ -14,21 +14,23 @@ export default function About() {
       <div>
         <div className={styles.page_title}>
           <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
-          <p>ABOUT</p>
+          <p>
+            <span className={styles.title_1}>A</span>BOUT
+          </p>
         </div>
         <div id="page" className={styles.page_contents}>
           <div className={styles.page_contents_title_l}>
               <span>who？</span>
           </div>
           <div className={styles.page_contents_text_l}>
-            <span>本文</span>
+            <span>takuma-ru</span>
           </div>
 
           <div className={styles.page_contents_text_r}>
-            <span>本文</span>
+            <span>react(Next.js)</span>
           </div>
           <div className={styles.page_contents_title_r}>
-              <span>何できるの？</span>
+              <span>Skill</span>
           </div>
 
           <div className={styles.page_contents_title_l}>

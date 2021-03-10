@@ -74,6 +74,15 @@
 
 .header_item_select {
   position: relative;
+  color: #00bebeff;
+}
+
+.header_item_select .underline::before {
+ background-color: #00bebeff;
+}
+
+.header_item_select .underline::after {
+  background-color: #00bebeff;
 }
 
 .header_item_select::before, .header_item_select::after {
@@ -82,7 +91,7 @@
   top: 50%;
   width: 3px;
   height: 130%;
-  background-color: #787878ff;
+  background-color: #00bebeff;
   transform: translate(-50%, -50%);
   animation-name: item_select;
   animation-duration: 0.2s;

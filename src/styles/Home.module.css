@@ -85,59 +85,6 @@
   }
 }
 
-/*.center_hover {
-  position: absolute;
-  top: -91%;
-  bottom: 0;
-  left: 0%;
-  right: 0;
-  margin: auto;
-  transform: rotate(4.2rad);
-  width: 5%;
-  height: 5%;
-  transition: 0.25s;
-}
-
-.center_hover_0 {
-  top: -45%;
-  bottom: 0;
-  left: -79%;
-  right: 0;
-  margin: auto;
-  transform: rotate(3.15rad);
-  transition: 0.25s;
-}
-
-.center_hover_1 {
-  top: 45%;
-  bottom: 0;
-  left: -79%;
-  right: 0;
-  margin: auto;
-  transform: rotate(2.1rad);
-  transition: 0.25s;
-}
-
-.center_hover_2 {
-  top: -45%;
-  bottom: 0;
-  left: 79%;
-  right: 0;
-  margin: auto;
-  transform: rotate(2.1rad);
-  transition: 0.25s;
-}
-
-.center_hover_3 {
-  top: 45%;
-  bottom: 0;
-  left: 79%;
-  right: 0;
-  margin: auto;
-  transform: rotate(3.15rad);
-  transition: 0.25s;
-}*/
-
 .center_hex_title {
   position: absolute;
   width: 48%;
@@ -255,7 +202,7 @@
   position: absolute;
   width: 0%;
   height: 1px;
-  background: #00b4dc;
+  background: #00bebeff;
   z-index: -1;
   transition: ease-out 0.4s;
 }
