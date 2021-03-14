@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div>
       <Head>
-        <title>NEKOO｜About</title>
+        <title>NEKOO&#xFF5C;About</title>
       </Head>
 
       <div>

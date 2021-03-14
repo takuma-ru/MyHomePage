@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
       <Head>
-        <title>NEKOO｜Contact</title>
+        <title>NEKOO&#xFF5C;Contact</title>
       </Head>
 
       <div  className={styles.page_title}>

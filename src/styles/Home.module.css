@@ -25,14 +25,14 @@
 }
 
 .center_hex_outline_1 {
-  transform: translate(-50%, -50%) rotate(300deg);
+  transform: translate(-50%, -50%) rotate(360deg) scale(1, -1);
   animation-name: home_anim1;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
 }
 
 .center_hex_outline_2 {
-  transform: translate(-50%, -50%) rotate(120deg);
+  transform: translate(-50%, -50%) rotate(180deg) scale(1, -1);
   animation-name: home_anim2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
