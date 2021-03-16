@@ -8,8 +8,8 @@ function Layout({children}) {
       <Header />
       <div className={styles.main_contents}>
         {children}
-        <SvgLoader className={styles.parts_1} path="/assets/background_parts.svg" />
-        <SvgLoader className={styles.parts_2} path="/assets/background_parts.svg" />
+        <SvgLoader className={styles.parts_1} path="/assets/background/background_parts.svg" />
+        <SvgLoader className={styles.parts_2} path="/assets/background/background_parts.svg" />
       </div>
       {/*<span className={styles.copyright}>&copy; takuma-ru 2021.</span>*/}
     </div>

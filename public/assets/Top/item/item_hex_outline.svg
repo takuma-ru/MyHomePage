@@ -12,7 +12,7 @@
  <g transform="translate(-187.25 -348.05)" fill="#f5f8f8" stroke="#282828" stroke-width="6">
   <path d="m664.38 731.73-221.13 127.67-221.13-127.67-6.7e-4 -255.34 221.13-127.67 221.13 127.67z" fill="#f5f8f8" opacity=".988" stroke="#282828" stroke-linejoin="bevel" stroke-width="6" style="paint-order:markers fill stroke"/>
  </g>
- <g transform="matrix(.93853 0 0 .93853 -15.817 16.132)" stroke="#282828" stroke-width="2.6637">
-  <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="none" opacity=".988" stroke="#282828" stroke-linejoin="bevel" stroke-width="2.6274" style="paint-order:markers fill stroke"/>
+ <g transform="matrix(.93853 0 0 .93853 -15.817 16.132)" stroke="#787878" stroke-width="2.6637">
+  <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="none" opacity=".988" stroke="#787878" stroke-linejoin="bevel" stroke-width="2.6274" style="paint-order:markers fill stroke"/>
  </g>
 </svg>

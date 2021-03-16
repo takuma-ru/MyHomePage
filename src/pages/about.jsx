@@ -13,31 +13,41 @@ export default function About() {
 
       <div>
         <div className={styles.page_title}>
-          <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
+          <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/pages/title_sideparts.svg"></SvgLoader>
           <p>
             <span className={styles.title_1}>A</span>BOUT
           </p>
         </div>
         <div id="page" className={styles.page_contents}>
-          <div className={styles.page_contents_title_l}>
-              <span>who？</span>
-          </div>
-          <div className={styles.page_contents_text_l}>
-            <span>takuma-ru</span>
+
+          <div className={styles.page_contents_01}>
+            <div className={styles.page_contents_title}>
+              <SvgLoader className={styles.contents_title_img} height="500%" path="assets/pages/contents_title.svg"></SvgLoader>
+              <SvgLoader className={styles.contents_text_img} height="500%" path="assets/pages/contents_title.svg">
+                <span>who</span>
+              </SvgLoader>
+            </div>
+            <div className={styles.page_contents_text}>
+              <span>takuma-ru</span>
+            </div>
           </div>
 
-          <div className={styles.page_contents_text_r}>
-            <span>react(Next.js)</span>
-          </div>
-          <div className={styles.page_contents_title_r}>
-              <span>Skill</span>
+          <div className={styles.page_contents_01}>
+            <div className={styles.page_contents_title}>
+                <span>skill？</span>
+            </div>
+            <div className={styles.page_contents_text}>
+              <span>Next.js</span>
+            </div>
           </div>
 
-          <div className={styles.page_contents_title_l}>
-              <span>誰？</span>
-          </div>
-          <div className={styles.page_contents_text_l}>
-            <span>本文</span>
+          <div className={styles.page_contents_01}>
+            <div className={styles.page_contents_title}>
+                <span>who？</span>
+            </div>
+            <div className={styles.page_contents_text}>
+              <span>takuma-ru</span>
+            </div>
           </div>
         </div>
       </div>

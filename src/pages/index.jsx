@@ -23,8 +23,8 @@ export default function Home() {
         <title>NEKOO｜Home</title>
       </Head>
       <div className={styles.center_hex}>
-        <SvgLoader path="/assets/center_hex.svg">
-        <SvgLoader className={styles.center_hex_outline + ' ' + hover_center} path="/assets/center_hex_outline.svg" />
+        <SvgLoader path="/assets/Top/center/center_hex.svg">
+        <SvgLoader className={styles.center_hex_outline + ' ' + hover_center} path="/assets/Top/center/center_hex_outline.svg" />
         {/*<SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />*/}
           <div
             className={styles.center_hex_title}
@@ -68,9 +68,9 @@ export default function Home() {
               }}
               className={styles.item_hex + ' ' + `item_hex_${i}`}
             >
-            <SvgLoader className={styles.item_hex_hover} path="/assets/item_hex_hover.svg"></SvgLoader>
-              <SvgLoader className={styles.item_hex_outline} path="/assets/item_hex_outline.svg">
-                <SvgLoader className={styles.item_hex_img} path="/assets/item_hex_fill.svg">
+            <SvgLoader className={styles.item_hex_hover} path="/assets/Top/item/item_hex_hover.svg"></SvgLoader>
+              <SvgLoader className={styles.item_hex_outline} path="/assets/Top/item/item_hex_outline.svg">
+                <SvgLoader className={styles.item_hex_img} path="/assets/Top/item/item_hex_fill.svg">
                   <div className={styles.item_hex_title}>
                     {data.title}
                   </div>
