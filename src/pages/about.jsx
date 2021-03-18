@@ -22,19 +22,16 @@ export default function About() {
 
           <div className={styles.page_contents_01}>
             <div className={styles.page_contents_title}>
-              <SvgLoader className={styles.contents_title_img} height="500%" path="assets/pages/contents_title.svg"></SvgLoader>
-              <SvgLoader className={styles.contents_text_img} height="500%" path="assets/pages/contents_title.svg">
-                <span>who</span>
-              </SvgLoader>
+              <span>Self Introduction</span>
             </div>
             <div className={styles.page_contents_text}>
-              <span>takuma-ru</span>
+              <span>I'm takuma-ru</span>
             </div>
           </div>
 
           <div className={styles.page_contents_01}>
             <div className={styles.page_contents_title}>
-                <span>skill？</span>
+              <span>skill</span>
             </div>
             <div className={styles.page_contents_text}>
               <span>Next.js</span>
@@ -43,7 +40,7 @@ export default function About() {
 
           <div className={styles.page_contents_01}>
             <div className={styles.page_contents_title}>
-                <span>who？</span>
+              <span>who</span>
             </div>
             <div className={styles.page_contents_text}>
               <span>takuma-ru</span>

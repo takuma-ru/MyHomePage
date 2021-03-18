@@ -1,89 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="contents_title.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg44"
-   version="1.1"
-   viewBox="0 0 135.46666 135.46666"
-   height="512"
-   width="512">
-  <defs
-     id="defs38" />
-  <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="1057"
-     inkscape:window-width="1920"
-     units="px"
-     inkscape:pagecheckerboard="true"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="316.82086"
-     inkscape:cx="183.32862"
-     inkscape:zoom="0.98994949"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base" />
-  <metadata
-     id="metadata41">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="レイヤー 1">
-    <g
-       transform="matrix(0.26458333,0,0,0.26458333,-49.543142,-92.090876)"
-       fill="#f5f8f8"
-       stroke="#282828"
-       stroke-width="6"
-       id="g6">
-      <path
-         d="M 664.38,731.73 443.25,859.4 222.12,731.73 l -6.7e-4,-255.34 221.13,-127.67 221.13,127.67 z"
-         fill="#f5f8f8"
-         opacity="0.988"
-         stroke="#282828"
-         stroke-linejoin="bevel"
-         stroke-width="6"
-         style="paint-order:markers fill stroke"
-         id="path4" />
-    </g>
-    <g
-       transform="matrix(0.2483194,0,0,0.2483194,-4.1849766,4.2683513)"
-       stroke="#787878"
-       stroke-width="2.6637"
-       id="g10">
-      <path
-         transform="matrix(0.878,-0.50691,0.50691,0.878,-43.031,191.41)"
-         d="m 378.44,436.99 -251.86,-1e-5 -125.93,-218.12 125.93,-218.12 251.86,1.229e-5 L 504.37,218.87 Z"
-         fill="none"
-         opacity="0.988"
-         stroke="#787878"
-         stroke-linejoin="bevel"
-         stroke-width="2.6274"
-         style="paint-order:markers fill stroke"
-         id="path8" />
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="996.03" height="573.33" version="1.1" viewBox="0 0 263.53 151.69" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(93.089 41.549)">
+  <g transform="matrix(.26458 0 0 .26458 -78.598 -125.53)" fill="none" stroke="#282828" stroke-width="6">
+   <path d="m664.38 731.73-221.13 127.67-221.13-127.67-6.7e-4 -255.34 221.13-127.67 221.13 127.67z" fill="none" opacity=".988" stroke="#282828" stroke-linejoin="bevel" stroke-width="6" style="paint-order:markers fill stroke"/>
   </g>
+  <g transform="matrix(.24832 0 0 .24832 -33.24 -29.167)" stroke="#787878" stroke-width="2.6637">
+   <path transform="matrix(.878 -.50691 .50691 .878 -43.031 191.41)" d="m378.44 436.99-251.86-1e-5 -125.93-218.12 125.93-218.12 251.86 1.229e-5 125.93 218.12z" fill="none" opacity=".988" stroke="#787878" stroke-linejoin="bevel" stroke-width="2.6274" style="paint-order:markers fill stroke"/>
+  </g>
+  <g transform="matrix(.16475 0 0 .16475 -129.29 -120.03)" fill="none" stroke-width="9.6358">
+   <path d="m664.38 476.39 6.7e-4 255.34-221.13 127.67-221.13-127.67" opacity=".988" stroke="#282828" stroke-linejoin="bevel" style="paint-order:markers fill stroke"/>
+   <path d="m222.12 476.39" stroke="#000"/>
+  </g>
+ </g>
 </svg>

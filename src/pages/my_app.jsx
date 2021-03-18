@@ -10,7 +10,7 @@ export default function My_App() {
       </Head>
 
       <div  className={styles.page_title}>
-        <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/title_sideparts.svg"></SvgLoader>
+        <SvgLoader className={styles.title_parts} width="5%" height="100%" path="assets/pages/title_sideparts.svg"></SvgLoader>
           <p>
             <span className={styles.title_1}>A</span>PP
           </p>
