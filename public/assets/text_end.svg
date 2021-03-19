@@ -7,52 +7,52 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="text_end.svg"
-   id="svg8"
-   viewBox="0 0 512 78.724434"
+   height="80"
+   width="500"
    version="1.1"
-   width="512"
-   height="78.724434">
+   viewBox="0 0 500 80"
+   id="svg8"
+   sodipodi:docname="text_end.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <defs
      id="defs12" />
   <sodipodi:namedview
-     inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true"
-     inkscape:object-paths="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-center="true"
-     inkscape:snap-page="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox="true"
-     inkscape:current-layer="g849"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:cy="-105.92822"
-     inkscape:cx="75.156388"
-     inkscape:zoom="1.7734375"
-     showgrid="false"
-     id="namedview10"
-     inkscape:window-height="1057"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     inkscape:document-rotation="0"
-     fit-margin-top="0"
-     fit-margin-left="0"
+     fit-margin-bottom="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="2.5080194"
+     inkscape:cx="339.57306"
+     inkscape:cy="-40.610661"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g849"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,33 +61,33 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-246.40958)"
-     id="g849">
+     id="g849"
+     transform="translate(0,-246.40958)">
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#282828;stroke-width:15.7054;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       y="254.38953"
+       x="7.9799466"
+       height="64.040123"
+       width="296.04443"
        id="rect17"
-       width="291.32416"
-       height="63.019039"
-       x="7.8527107"
-       y="254.26228" />
-    <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#00bebe;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.15096;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-       id="rect842"
-       width="78.724434"
-       height="78.724434"
-       x="433.27557"
-       y="246.40958" />
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#282828;stroke-width:15.9599;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1" />
     <rect
        y="246.40958"
-       x="359.93433"
-       height="78.724434"
-       width="15.837368"
+       x="420"
+       height="80"
+       width="80"
+       id="rect842"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#00bebe;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.26683;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#00bebe;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.25936;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
        id="rect844"
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#00bebe;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.20739;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1" />
+       width="16.093981"
+       height="80"
+       x="357.9407"
+       y="246.40958" />
   </g>
 </svg>

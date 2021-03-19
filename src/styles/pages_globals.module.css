@@ -68,10 +68,10 @@
   background-image: url('/assets/text_end.svg');
   background-size: cover;
   position: absolute;
-  bottom: 20%;
-  width: 20%;
-  height: 20%;
-  margin-left: 2.5%;
+  bottom: 1.5vmin;
+  width: 6.25vmin;
+  height: 1vmin;
+  margin-left: 2vmin;
 }
 
 .page_contents_title_img {
