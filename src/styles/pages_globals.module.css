@@ -47,20 +47,43 @@
   font-weight: 400;
 }
 
+.page_contents_title::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.3vmin;
+  left: 0px;
+  bottom: 0px;
+  background-color: #282828;
+}
+
 .page_contents_title span {
   position: absolute;
   height: fit-content;
   bottom: 10%;
 }
 
-.page_contents_title::after {
+.page_contents_title span::after {
   content: '';
+  background-image: url('/assets/text_end.svg');
+  background-size: cover;
   position: absolute;
-  width: 100%;
-  height: 3px;
-  left: 0px;
-  bottom: 0px;
-  background-color: #282828;
+  bottom: 20%;
+  width: 20%;
+  height: 20%;
+  margin-left: 2.5%;
+}
+
+.page_contents_title_img {
+  position: absolute;
+  left: -8%;
+  bottom: calc(0.15vmin - 50%);
+}
+
+.page_contents_title_img_2 {
+  position: absolute;
+  right: -8%;
+  bottom: calc(0.15vmin - 50%);
 }
 
 .page_contents_text {
