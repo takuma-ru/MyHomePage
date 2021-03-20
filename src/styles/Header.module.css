@@ -6,7 +6,7 @@
   margin-top: -64px;
   margin-left: 6.5vmin;
   margin-right: 6.5vmin;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1.5px);
   z-index: 99;
   grid-template-rows: 64px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
