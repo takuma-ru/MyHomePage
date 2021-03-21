@@ -8,7 +8,7 @@ export default function About() {
   const item_data = [
     {title: "Self Introduction", text: "I'm takuma-ru"},
     {title: "skill", text: "Next.js"},
-    {title: "", text: ""}
+    {title: "who", text: "Hi."}
   ]
 
   return (
@@ -32,15 +32,25 @@ export default function About() {
 
         <div id="page" className={styles.page_contents}>
           {item_data.map((data, i) => {
+            var last = false
+            console.log(item_data.length)
+            if((item_data.length - 1) == i) {
+              last = true
+            }else {
+              last = false
+            }
+
             return (
               <div className={styles.page_contents_01}>
-                <div className={styles.page_contents_side}>
-                  <div className={styles.page_contents_sideparts}></div>
-                  <div
-                    /*dangerouslySetInnerHTML={{ __html: item_data[1].title }}*/
-                    className={styles.page_contents_sideparts_text}
-                  >Next</div>
-                </div>
+                { !last &&
+                  <div className={styles.page_contents_side}>
+                    <div className={styles.page_contents_sideparts}></div>
+                    <div
+                      dangerouslySetInnerHTML={{ __html: 'next >> ' + '<span style="color: #00bebeff">' + item_data[i + 1].title + '</span>'  }}
+                      className={styles.page_contents_sideparts_text}
+                    ></div>
+                  </div>
+                }
                 <div className={styles.page_contents_title}>
                   <SvgLoader
                     className={styles.page_contents_title_img}
@@ -59,10 +69,10 @@ export default function About() {
                   ></SvgLoader>
                 </div>
                 <div className={styles.page_contents_text}>
-                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_01} width="2.5vmin" height="2.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
-                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_02} width="2.5vmin" height="2.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
-                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_03} width="2.5vmin" height="2.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
-                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_04} width="2.5vmin" height="2.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
+                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_01} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
+                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_02} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
+                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_03} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
+                  <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_04} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
                     <span
                       dangerouslySetInnerHTML={{ __html: data.text }}
                     ></span>

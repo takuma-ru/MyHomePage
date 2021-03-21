@@ -137,6 +137,7 @@
   height: 10%;
   bottom: 2.5%;
   right: 20%;
+  white-space: nowrap;
 }
 
 .page_contents_sideparts {
@@ -146,16 +147,18 @@
   transform-origin: right top;
 
   animation-name: sideparts;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
 .page_contents_sideparts_text {
   position: absolute;
-  bottom: 65%;
-  left: 0%;
+  transform-origin: right bottom;
+  bottom: 0%;
+  right: -500%;
   transform: rotate(90deg);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: large;
   color: #787878;
 }
 
