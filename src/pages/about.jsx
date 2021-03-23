@@ -41,7 +41,17 @@ export default function About() {
             }
 
             return (
-              <div className={styles.page_contents_01}>
+              <div key={i} className={styles.page_contents_01}>
+                <div className={styles.contents_background}>
+                  <SvgLoader
+                    className={styles.back_01}
+                    path="assets/pages/contents_background.svg"
+                  ></SvgLoader>
+                  <SvgLoader
+                    className={styles.back_02}
+                    path="assets/pages/contents_background.svg"
+                  ></SvgLoader>
+                </div>
                 { !last &&
                   <div className={styles.page_contents_side}>
                     <div className={styles.page_contents_sideparts}></div>
