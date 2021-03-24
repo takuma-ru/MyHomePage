@@ -33,7 +33,6 @@ export default function About() {
         <div id="page" className={styles.page_contents}>
           {item_data.map((data, i) => {
             var last = false
-            console.log(item_data.length)
             if((item_data.length - 1) == i) {
               last = true
             }else {
@@ -42,15 +41,15 @@ export default function About() {
 
             return (
               <div key={i} className={styles.page_contents_01}>
+                <SvgLoader
+                  className={styles.back_02}
+                  path="assets/pages/contents_background_02.svg"
+                ></SvgLoader>
+                <SvgLoader
+                  className={styles.back_03}
+                  path="assets/pages/contents_background_02.svg"
+                ></SvgLoader>
                 <div className={styles.contents_background}>
-                  <SvgLoader
-                    className={styles.back_01}
-                    path="assets/pages/contents_background.svg"
-                  ></SvgLoader>
-                  <SvgLoader
-                    className={styles.back_02}
-                    path="assets/pages/contents_background.svg"
-                  ></SvgLoader>
                 </div>
                 { !last &&
                   <div className={styles.page_contents_side}>
@@ -79,6 +78,10 @@ export default function About() {
                   ></SvgLoader>
                 </div>
                 <div className={styles.page_contents_text}>
+                  <SvgLoader
+                    className={styles.back_01}
+                    path="assets/pages/contents_background.svg"
+                  ></SvgLoader>
                   <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_01} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
                   <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_02} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
                   <SvgLoader className={styles.page_contents_text_parts + ' ' + styles.text_03} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>

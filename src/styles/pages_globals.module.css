@@ -132,7 +132,7 @@
 
 .page_contents_side {
   position: absolute;
-  width: 0.15vmin;
+  width: 0.3vmin;
   height: 10%;
   bottom: 2.5%;
   right: 20%;
@@ -142,7 +142,7 @@
 .page_contents_sideparts {
   position: absolute;
   width: 100%;
-  background-color: #787878;
+  background-color: #282828;
   transform-origin: right top;
 
   animation-name: sideparts;
@@ -157,7 +157,7 @@
   right: -500%;
   transform: rotate(90deg);
   font-weight: 500;
-  color: #787878;
+  color: #282828;
 }
 
 .contents_background {
@@ -173,16 +173,25 @@
   position: absolute;
   width: 25vmax;
   height: 25vmax;
-  bottom: 0%;
+  top: 50%;
   left: -12.5vmax;
+  transform: translateY(-50%);
 }
 
 .back_02 {
   position: absolute;
-  width: 25vmax;
-  height: 25vmax;
-  top: 0%;
-  right: -12.5vmax;
+  width: 3vmax;
+  height: 3vmax;
+  top: 5%;
+  left: 0%;
+}
+
+.back_03 {
+  position: absolute;
+  width: 3vmax;
+  height: 3vmax;
+  bottom: 5%;
+  right: 0%;
 }
 
 @keyframes sideparts {
