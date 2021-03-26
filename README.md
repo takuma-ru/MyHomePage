@@ -1,7 +1,7 @@
 # My Home Page
 
 ## Description
-takuma-ruのホームページ的なヤツ
+takuma-ruのホームページ的なヤツ<br>
 自己紹介の時とかに使えるようにしたい
 
 ## Requirement
