@@ -2,6 +2,7 @@
 
 ## Description
 takuma-ruのホームページ的なヤツ
+自己紹介の時とかに使えるようにしたい
 
 ## Requirement
 
