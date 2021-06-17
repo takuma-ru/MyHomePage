@@ -7,9 +7,64 @@ import { SvgLoader, SvgProxy } from 'react-svgmt';
 export default function About() {
 
   const item_data = [
-    {title: "Self Introduction", text: "Hello. I'm takuma-ru."},
-    {title: "skill", text: "Next.js"},
-    {title: "who", text: "Hi."}
+    {title: "Profile", text: `
+      どうもこんにちは。takuma-ruです。
+      <ul>
+        <li>今年の抱負</li>
+        目指せ年間365コミット
+        <li>Sosial media</li>
+        <ul>
+          <li>Twitter&#xFF5C;@takumaru_2222</li>
+          <li>bitbucket&#xFF5C;takuma-ru</li>
+          <li>GooglePlay&#xFF5C;takuma-ru</li>
+        </ul>
+        <li>得意なこと</li>
+        <ul>
+          <li>Webアプリ開発</li>
+          webアプリを作るのが得意です。特にVue.jsやNuxt.jsを扱うのが得意で、基本的にはこの2つのフレームワークを使っています。
+          大体のことができる能力はあると思ってます。PWAとTWAを扱う技術もあるので一応ネイティブアプリっぽいのも作れます。
+          Reactは基本的な事ならできます。ただreduxを扱うとこはまだできません。TypeScriptも勉強中。
+          もともと1つの言語ですべてのプラットフォームに対応したアプリを開発したいと思ってこの分野に手を出したので、DartやElectronもやってみたいと思っています。
+          <li>ゲーム開発</li>
+          C#とUnityを用いたゲーム開発ができます。C#に関してはオブジェクト指向を少し理解しているつもりです。Unityに関しては3D,2Dどちらのゲームも小規模程度なら1人で作れる技術力はあります。また、ポストエフェクトを用いてゲームに視覚的効果を与える程度のスキルはあります。
+        </ul>
+      </ul>
+    `},
+    {title: "skill", text: `
+      <ul>
+        <li>Web</li>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>css</li>
+          <li>Vue.js</li>
+          <li>Nuxt.js</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>TypeScript(勉強中)</li>
+        </ul>
+        <li>C#(Unity)</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>やってみたい言語</li>
+        <ul>
+          <li>Dart(flutter)</li>
+          <li>Ruby</li>
+        </ul>
+      </ul>
+    `},
+    {title: "Currently under development", text: `
+      <ul>
+        <li>CHISK</li>
+        Vue.jsで作成したタスク管理Webアプリです。
+        詳細はこちら
+
+        <li>MyHomePage</li>
+        このページを作っています。
+
+      </ul>
+    `}
   ]
 
   return (
@@ -42,7 +97,7 @@ export default function About() {
 
             return (
               <div key={i} className={about.page_contents_01}>
-                <SvgLoader
+                 <SvgLoader
                   className={about.back_02}
                   path="assets/pages/contents_background_02.svg"
                 ></SvgLoader>
@@ -90,9 +145,9 @@ export default function About() {
                     <SvgLoader className={about.page_contents_text_parts + ' ' + about.text_02} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
                     <SvgLoader className={about.page_contents_text_parts + ' ' + about.text_03} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
                     <SvgLoader className={about.page_contents_text_parts + ' ' + about.text_04} width="3.5vmin" height="3.5vmin" path="assets/pages/contents_text_parts.svg"></SvgLoader>
-                    <span
+                    <p
                       dangerouslySetInnerHTML={{ __html: data.text }}
-                    ></span>
+                    ></p>
                   </div>
                 </div>
               </div>

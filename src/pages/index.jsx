@@ -8,7 +8,6 @@ export default function Home() {
   const [hover_num, setHover_num] = useState(4);
   const [hover_center, setHover_center] = useState(0);
 
-
   var item_data = [
     {title: "ABOUT", url:"/about", text: "自己紹介<br>スキル" },
     {title: "GAME", url:"/game", text: "作ったゲーム" },
