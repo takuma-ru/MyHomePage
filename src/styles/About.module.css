@@ -18,7 +18,7 @@
   height: 12.5%;
   margin-left: 25%;
   margin-right: 25%;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 400;
 }
 
@@ -87,6 +87,7 @@
 
 .page_contents_text_main p {
   padding: 2vmin;
+  font-size: 1.25rem;
 }
 
 .page_contents_text_parts {

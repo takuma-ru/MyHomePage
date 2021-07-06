@@ -38,3 +38,4 @@ yarn-error.log*
 /public/assets/img_dev
 /src/pages/dev.jsx
 /src/pages/dev2.jsx
+/src/styles/dev.module.css

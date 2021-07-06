@@ -1,7 +1,7 @@
 import {useState} from "react"
 import Link from 'next/link'
 import Head from 'next/head'
-import { SvgLoader, SvgProxy } from 'react-svgmt';
+import { SvgLoader, SvgProxy, TransformMotion } from 'react-svgmt';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -22,18 +22,17 @@ export default function Home() {
         <title>NEKOO｜Home</title>
       </Head>
       <div className={styles.center_hex}>
-        <SvgLoader path="/assets/Top/center/center_hex.svg">
-        <SvgLoader className={styles.center_hex_outline + ' ' + hover_center} path="/assets/Top/center/center_hex_outline.svg" />
-        {/*<SvgLoader className={styles.center_hover + ' ' + hover_center} path="/assets/center_hover.svg" />*/}
-          <div
-            className={styles.center_hex_title}
-            dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
-          ></div>
-          <div className={styles.center_hex_text}>
-            <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
-            <SvgLoader className={styles.text_end} path="/assets/text_end.svg" />
-          </div>
+        <SvgLoader className={styles.center_hex_outline + ' ' + hover_center} path="/assets/Top/center/center_hex_outline.svg">
+          <SvgProxy selector="#center1" className={styles.center_hex_outline_center1}></SvgProxy>
         </SvgLoader>
+        <div
+          className={styles.center_hex_title}
+          dangerouslySetInnerHTML={{ __html: item_data[hover_num].title }}
+        ></div>
+        <div className={styles.center_hex_text}>
+          <p dangerouslySetInnerHTML={{ __html: item_data[hover_num].text }}></p>
+          <SvgLoader className={styles.text_end} path="/assets/text_end.svg" />
+        </div>
       </div>
 
       {item_data.map((data, i) => {

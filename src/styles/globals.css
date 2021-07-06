@@ -30,8 +30,9 @@ a {
 }
 
 li {
-  margin: 1vh 0vw;
-  font-weight: bolder;
+  margin-top: 1.5vh;
+  margin-bottom: 0.5vh;
+  font-weight: bold;
 }
 
 * {

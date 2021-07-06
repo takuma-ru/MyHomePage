@@ -9,12 +9,32 @@
 }
 
 .center_hex_outline {
-  position: absolute;
-  width: 110%;
-  height: 110%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.center_hex_outline_center1 {
+  animation-name: center_anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: red;
+  transform: rotate(90deg);
+}
+
+@keyframes center_anim {
+  0% {
+    transform-origin: center center;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform-origin: center center;
+    transform: rotate(360deg);
+  }
 }
 
 .center_hex_outline_0 {
